@@ -9,10 +9,10 @@ The final goal is to build a chatbot that can:
 
 - repeatedly ask for missing information to create a profile of a job seeker so that it can then show relevant jobs. Ex: If our bot needs the job title and the location to search for relevant jobs and only job title is provided then it should ask for location too. (Hint: this can be done using Rasa forms)
 
-Bot: "What job are you looking for?", 
-JS:  "I'm looking for a python developer job"
-Bot: "Which location would you like to find jobs in?"
-JS:  "I want to search for jobs in Hyderabad"	
+Bot: "What job are you looking for?"   
+JS:  "I'm looking for a python developer job"   
+Bot: "Which location would you like to find jobs in?"   
+JS:  "I want to search for jobs in Hyderabad"   
 Bot: "Okay, here are python developer jobs in Hyderabad"
 
 Lucky for us Rasa is capable of doing most of this already. Test out the [Rasa playground](https://rasa.com/docs/rasa/playground) to get a clearer understanding. 
@@ -29,7 +29,7 @@ What information we will scrape from the database will be dependent on the infor
 ### Where will you store all the scraped data? 
 For the sake of our chatbot an excel sheet would do, however, that wouldn't be a great idea due to speed, extendability, etc. For this purpose using a database such as mongoDB would be the ideal option. You could learn mongoDB [here](https://university.mongodb.com/courses/M220P/about). 
 
-This will also help us in storing the profiles of the job seekers as and when they give us their details through a rasa form as discussed above or as an entity captured.  
+This will also help us store job seeker profiles as and when provided through a rasa form as discussed above.
 
 ### Retrieving data and showing it to the job seeker
 To code this logic we'll need to use [custom actions](https://rasa.com/docs/rasa/actions/) in Rasa. 
