@@ -17,16 +17,14 @@ You don't *have* to use these libraries. They're only provided for your convenie
 ## What is the problem and how to tackle it? 
 
 ### Building the Neural Network (Main Task)
-The task is to build a simple feed forward neural network to solve the [specific task] at hand. You have to choose the architecture and hyper parameters for the network, i.e, number of layers, number of neurons, learning rate (if applicable) etc. 
-
-Explain what the dataset is and what the problem is 
+The task is to build a simple feed forward neural network to predict customer rating from the reviews. You have to choose the architecture and hyper parameters for the network, i.e, number of layers, number of neurons, learning rate (if applicable) etc. 
 
 There are a lot of resources to understand the inner workings of neural networks. Here are a few: 
 - [Video](https://youtu.be/aircAruvnKk): the concepts behind how a neural network works 
 - [Video](https://youtu.be/w8yWXqWQYmU): Building a neural network from scratch 
 - [Series](https://youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3): Neural networks from scratch
 
-While writing the code for the neural network use Object Oriented Programming (OOP) concepts when required to make the code more robust to new use cases. For example, if you want to change the architecture of the neural network from having a single hidden layer with 50 neurons to a hidden layer with 100 neurons, it should be as simple as changing a parameter in a function from 50 to 100. Ex: as easy as changing `neural_network.layer(n=50)` to `neural_network.layer(n=100)`.
+While writing the code for the neural network use Object Oriented Programming (OOP) concepts as and when required to make the code more robust to new use cases. For example, if you want to change the architecture of the neural network from having a single hidden layer with 50 neurons to a hidden layer with 100 neurons, it should be as simple as changing a parameter in a function from 50 to 100. Ex: as easy as changing `neural_network.layer(n=50)` to `neural_network.layer(n=100)`.
 
 ### Preparing the dataset 
 The dataset provided is a modified version of the amazon cell phone reviews [dataset](https://www.kaggle.com/grikomsn/amazon-cell-phones-reviews?select=20191226-reviews.csv). It has three columns: 
@@ -41,17 +39,17 @@ You don't have to use the whole training dataset to train your model. reduce the
 **Note**: In this whole section of data pre-processing you are allowed to use external libraries such as nltk, genesis, etc. to simplify the process. 
 
 ### Training, Validation and Results
-You can use any portion of the `training-dataset.csv` for the purpose of training depending on the compute power accessible and time constraints. Once training is done, testing your model on `testing-dataset.csv` and find the classification accuracy. 
+You can use any portion of the `training-dataset.csv` for the purpose of training depending on the compute power accessible and time constraints. Once training is done, test your model on `testing-dataset.csv` and find the classification accuracy. 
 
 ## What are we looking for in the submission? 
-Through this test we are trying to simulate a work environment where you are approached with a problem and a rough idea on what to do to solve it. The rest is up to you. You'll have to:
+Through this assessment we are trying to simulate a work environment where you are approached with a problem and a rough idea on what to do to solve it. The rest is up to you. You'll have to:
 
 - Research about the problem and arrive at a theoretical solution 
 - Go back to the whiteboard and sketch the architecture - define classes, functionalities, etc
 - Convert your idea into code 
-- Validate your solution and explain why it did well or not
+- Validate your solution and explain why it did or didn't go well and the challenges faced
 
-We understand that this is a tough challenge, so don't worry if you're not able to complete it in time. The purpose of the assessment is to understand your learning speed and style, thought process, execution quality and clarity.  
+We understand that this is a tough challenge, so don't worry if you're not able to complete it in time. The purpose of the assessment is to understand your learning speed and style, thought process, execution quality and clarity.   
 
 If you have any doubts, queries or concerns feel free to reach out to me at `rana@maprecruit.ai`. 
 
