@@ -32,7 +32,7 @@ For the sake of our chatbot an excel sheet would do, however, that wouldn't be a
 This will also help us store job seeker profiles as and when provided through a rasa form as discussed above.
 
 ### Retrieving data and showing it to the job seeker
-To code this logic we'll need to use [custom actions](https://rasa.com/docs/rasa/actions/) in Rasa. 
+To code logic such as this we'll need to use [custom actions](https://rasa.com/docs/rasa/actions/) in Rasa. Finding the most relevant job and retrieving it can be done in multiple ways and it depends on the data we are taking from the job seeker (check advanced functionalities). 
 
 ## Recap
 
