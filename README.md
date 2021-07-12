@@ -8,6 +8,8 @@ This repository holds assessments for the role Machine Learning Engineer at MapR
 - Step 1: Create a Github repo where you will code over the 7 day period
 - Step 2: Create an issue in this (Yoghurtyam/MR-ML-Assessments) GitHub repo (on the top) and add the link to your GitHub repo (the one created in Step 1) in the space for "Leave a comment". The "Title" should be of the format < Name > - < question assigned >
 
+![alt text](https://i.ibb.co/Y020Mc4/Screenshot-2021-07-12-at-11-02-07-PM.png)
+
 Do not make any additional changes after the deadline has passed. 
 
 

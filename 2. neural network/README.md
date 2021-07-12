@@ -1,6 +1,6 @@
 # Build a neural network from scratch and use it for sentiment analysis
 
-***Problem Brief:*** Build a simple feed forward neural network from the ground-up only using a few external libraries (given below). Then use it to predict what the rating (loosely referred to as sentiment) is for a given phone review (check dataset section). 
+***Problem Brief:*** Build a simple feed forward neural network from the ground-up only using a few external libraries (given below). Then use it to predict what the rating is for a given phone review (rating is loosely referred to as sentiment). 
 
 
 You may have previously used neural networks from **Pytorch** or **Tensorflow** in your projects, in this task you will be required to build a neural network from scratch using python. We're not evil so here are a few libraries you can *choose* to use: 
