@@ -41,6 +41,8 @@ You don't have to use the whole training dataset to train your model. reduce the
 ### Training, Validation and Results
 You can use any portion of the `training-dataset.csv` for the purpose of training depending on the compute power accessible and time constraints. Once training is done, test your model on `testing-dataset.csv` and find the classification accuracy. 
 
+The datasets can be found in the "datasets" folder above.  
+
 ## What are we looking for in the submission? 
 Through this assessment we are trying to simulate a work environment where you are approached with a problem and a rough idea on what to do to solve it. The rest is up to you. You'll have to:
 
