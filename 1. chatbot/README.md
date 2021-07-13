@@ -27,9 +27,11 @@ What information we will scrape from the database will be dependent on the infor
 > Technologies you could use for scraping: Selenium, Beautiful Soup, etc. 
 
 ### Where will you store all the scraped data? 
-For the sake of our chatbot an excel sheet would do, however, that wouldn't be a great idea due to speed, extendability, etc. For this purpose using a database such as mongoDB would be the ideal option. You could learn mongoDB [here](https://university.mongodb.com/courses/M220P/about). 
+For the sake of our chatbot an excel sheet would do, however, that wouldn't be a great idea due to speed, extendability, etc. For this purpose using a database such as MySQL would be a good choice. 
 
-This will also help us store job seeker profiles as and when provided through a rasa form as discussed above.
+**Extra:** You could also use mongoDB. Check out the mongoDB for developers course [here](https://university.mongodb.com/courses/M220P/about) if you're interested. 
+
+Further, This will help us store job seeker profiles as and when provided through a rasa form as discussed above.
 
 ### Retrieving data and showing it to the job seeker
 To code logic such as this we'll need to use [custom actions](https://rasa.com/docs/rasa/actions/) in Rasa. Finding the most relevant job and retrieving it can be done in multiple ways and it depends on the data we are taking from the job seeker (check advanced functionalities). 

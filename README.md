@@ -12,6 +12,7 @@ This repository holds assessments for the role Machine Learning Engineer at MapR
 
 Do not make any additional changes after the deadline has passed. 
 
+***Important***: You are only supposed to solve the single task assigned to you via mail. 
 
 If you haven't used GitHub previously and think learning it will divert you from the problem at hand - send your code directly to `rana@maprecruit.ai` before the submission deadline. (Not recommended)
 
