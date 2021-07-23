@@ -6,8 +6,8 @@ This repository holds assessments for the role Machine Learning Engineer at MapR
 
 # Submission instructions
 - Step 1: **(Day One)** Create a Github repo where you will code over the 7 day period. Create this on day one so we know you're working on the project. 
-- Step 2: **(Day One)** Send a mail to `rana@maprecruit.ai` with the link to your GitHub repo. The subject of the mail should be "<Your name> - <Task name>". Example: "Rana Prathap - Chatbot". 
-- Step 3: **(Day Seven)** Before your deadline has passed on the 7th day - send out an email to `rana@maprecruit.ai` saying you have completed your task. The subject of the mail should be "<Your name> - Completed task <Task name>". Example: "Rana Prathap - Completed task Chatbot"
+- Step 2: **(Day One)** Send a mail to `rana@maprecruit.ai` with the link to your GitHub repo. The subject of the mail should be "< Your name > - < Task name >". Example: "Rana Prathap - Chatbot". 
+- Step 3: **(Day Seven)** Before your deadline has passed on the 7th day - send out an email to `rana@maprecruit.ai` saying you have completed your task. The subject of the mail should be "< Your name > - Completed task < Task name >". Example: "Rana Prathap - Completed task Chatbot"
 
 Do not make any additional changes after the deadline has passed. 
 
